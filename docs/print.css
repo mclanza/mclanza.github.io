@@ -1,16 +1,37 @@
-/* Print / PDF optimizations for minimalist CV */
-@media print {
-  body{
-    background:white;
-    color:#000;
-    font-size:11pt;
-  }
-  header, .langs, .contact .small a { color: #000; }
-  a::after { content: " (" attr(href) ")"; font-size:10pt; color:#333; }
-  .top{ page-break-inside: avoid; }
-  section{ page-break-inside: avoid; }
-  .wrap{ max-width: 180mm; margin: 0 auto; padding: 12mm; }
-  .foot{ display:block; margin-top:18mm; }
-  /* remove links/buttons that don't make sense in print */
-  .langs{ display:none; }
+/* Remove nav */
+nav {
+  display: none !important;
+}
+
+/* Use serif font for print elegance */
+body {
+  font-family: "Georgia", serif;
+  color: #000;
+}
+
+/* Remove left border for PDF */
+section {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+/* Improve spacing */
+section {
+  margin-bottom: 28px;
+}
+
+/* Page breaks for long sections */
+section:nth-of-type(4),
+section:nth-of-type(7) {
+  page-break-before: always;
+}
+
+/* Avoid page breaks inside experience items */
+ul, li {
+  page-break-inside: avoid;
+}
+
+/* No footer during print */
+footer {
+  display: none;
 }
