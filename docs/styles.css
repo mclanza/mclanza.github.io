@@ -95,3 +95,50 @@ a {
 a:hover {
   opacity: 0.8;
 }
+
+/* ----------------------------------------------------------
+   DARK MODE — Auto-detect via prefers-color-scheme
+-----------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e8e8e8;
+    --subtle: #b5b5b5;
+    --accent: #c7c7c7;
+    --border-left: 4px solid var(--accent);
+  }
+
+  body {
+    background: #151515;
+    color: var(--text);
+  }
+
+  nav {
+    background: #1c1c1c;
+    border-bottom: 1px solid #333;
+  }
+
+  nav a {
+    color: var(--subtle);
+  }
+
+  nav a.active {
+    color: var(--text);
+  }
+
+  .container {
+    background: transparent;
+  }
+
+  .profile-pic {
+    border: 2px solid #555;
+  }
+
+  h1, h2, h3 {
+    color: var(--text);
+  }
+
+  a {
+    color: var(--text);
+    text-decoration-color: var(--accent);
+  }
+}
