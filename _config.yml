@@ -1,0 +1,7 @@
+title: "Mariela Lanza | Engineering Leadership CV"
+description: "CV enfocado en Liderazgo de Ingeniería y Estrategia."
+url: "https://mclanza.github.io"
+baseurl: ""
+
+# Minimum for GitHub Pages not to fail with Jekyll 4.0
+markdown: kramdown

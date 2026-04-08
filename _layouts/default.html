@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.data.cv.name }} | Executive CV</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+
+<body class="bg-slate-50 text-slate-900 leading-relaxed antialiased">
+
+<div class="fixed top-6 right-6 no-print z-50">
+        {% assign lang = page.lang | default: "es" %}
+        <button onclick="window.print()" 
+                class="bg-blue-600 text-white px-5 py-2.5 rounded-full shadow-xl hover:bg-blue-700 transition-all flex items-center gap-2 text-sm font-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            {{ site.data.cv.navigation[lang].download_pdf }}
+        </button>
+    </div>
+
+    <div class="max-w-4xl mx-auto my-12 bg-white shadow-sm border border-slate-200 min-h-[1100px] relative">
+
+        <nav class="no-print bg-slate-900 text-white px-8 py-4 flex justify-between items-center">
+            <div class="flex space-x-6 text-xs font-bold uppercase tracking-widest">
+                {% assign lang = page.lang | default: "es" %}
+                {% assign nav = site.data.cv.navigation[lang] %}
+                
+                {% comment %} Clean the current URL to ensure the matching {% endcomment %}
+                {% assign current_path = page.url | replace: 'index.html', '' | replace: '.html', '' %}
+
+                <a href="{% if lang == 'en' %}/en/{% else %}/{% endif %}" 
+                class="hover:text-blue-400 {% if current_path == '/' or current_path == '/en/' or current_path == '/en' %}text-blue-400 font-black{% endif %}">
+                    {{ nav.bio }}
+                </a>
+
+                <a href="{% if lang == 'en' %}/en/research{% else %}/investigacion{% endif %}" 
+                class="hover:text-blue-400 {% if current_path contains 'investig' or current_path contains 'research' %}text-blue-400 font-black{% endif %}">
+                    {{ nav.research }}
+                </a>
+
+                <a href="{% if lang == 'en' %}/en/volunteering{% else %}/voluntariado{% endif %}" 
+                class="hover:text-blue-400 {% if current_path contains 'volunt' %}text-blue-400 font-black{% endif %}">
+                    {{ nav.volunteering }}
+                </a>
+
+                <a href="{% if lang == 'en' %}/en/certifications{% else %}/certificaciones{% endif %}" 
+                class="hover:text-blue-400 {% if current_path contains 'certific' %}text-blue-400 font-black{% endif %}">
+                    {{ nav.certifications }}
+                </a>
+
+            </div>
+
+            <div class="text-xs font-bold space-x-2">
+                <a href="/" class="hover:underline {% if lang == 'es' %}text-blue-400{% endif %}">ES</a>
+                <span class="text-slate-600">|</span>
+                <a href="/en/" class="hover:underline {% if lang == 'en' %}text-blue-400{% endif %}">EN</a>
+            </div>
+        </nav>        
+
+
+        <main class="p-12 md:p-16">
+            {{ content }}
+        </main>
+
+        <footer class="p-16 border-t border-slate-100 text-center no-print">
+            <div class="text-[12px] uppercase tracking-[0.4em] font-bold text-slate-600 mb-6">
+                {{ site.data.cv.name }}
+            </div>
+
+            <div class="text-[10px] uppercase tracking-[0.2em] text-slate-400 flex flex-wrap justify-center items-center gap-y-2">
+                <a href="mailto:{{ site.data.cv.contact.email }}" class="hover:text-blue-600 transition-colors px-3">
+                    {{ site.data.cv.contact.email }}
+                </a>
+                
+                {% if site.data.cv.contact.linkedin %}
+                <span class="text-slate-200 hidden md:inline">|</span>
+                <a href="https://{{ site.data.cv.contact.linkedin }}" target="_blank" class="hover:text-blue-600 transition-colors px-3">
+                    LinkedIn
+                </a>
+                {% endif %}
+                <!---
+                {% if site.data.cv.contact.github %}
+                <span class="text-slate-200 hidden md:inline">|</span>
+                <a href="https://{{ site.data.cv.contact.github }}" target="_blank" class="hover:text-blue-600 transition-colors px-3">
+                    GitHub
+                </a>
+                {% endif %}
+                -->
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-slate-50">
+                <div class="text-[10px] text-slate-300 uppercase tracking-widest mb-2">
+                    {{ site.data.cv.location }}
+                </div>
+                <div class="text-[9px] lowercase tracking-normal text-slate-300 italic">
+                    {{ site.data.cv.navigation[lang].collab }}
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+</body>
+</html>

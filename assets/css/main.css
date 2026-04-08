@@ -1,0 +1,21 @@
+@media print {
+    /* 1. Permitir que las secciones se rompan si son muy largas */
+    section, .mb-16 {
+        page-break-inside: auto !important;
+    }
+
+    /* 2. Evitar que se corte justo después de un título (queremos el título con su texto) */
+    h2, h3 {
+        page-break-after: avoid !important;
+    }
+
+    /* 3. Evitar que un párrafo o un ítem de lista se parta a la mitad (opcional) */
+    p, li {
+        page-break-inside: avoid !important;
+    }
+    
+    /* Extra: Ajustar márgenes para ganar espacio */
+    @page {
+        margin: 1.2cm 1.5cm; /* Menos margen arriba/abajo, mantenemos laterales */
+    }
+}

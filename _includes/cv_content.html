@@ -1,0 +1,128 @@
+{% assign lang = page.lang %}
+{% assign cv = site.data.cv %}
+{% assign fnd = cv.foundations[lang] %}
+
+<header class="mb-16">
+    <h1 class="text-5xl font-bold tracking-tight text-slate-900 mb-4">{{ cv.name }}</h1>
+    <p class="text-blue-600 font-medium tracking-[0.2em] uppercase text-sm mb-12">
+        {{ cv.tagline[lang] }}
+    </p>
+</header>
+
+<section class="mb-16 border-l-4 border-blue-600 pl-8">
+    <p class="text-xl text-slate-700 leading-relaxed font-light italic">
+        {{ cv.profile[lang] }}
+    </p>
+</section>
+
+<section class="mb-12">
+    <div class="bg-slate-50 border-l-4 border-slate-300 p-8 rounded-r-lg">
+        <div class="flex justify-between items-start mb-4">
+            <h2 class="text-xl font-bold text-slate-800 uppercase tracking-tight">
+                {{ fnd.title }}
+            </h2>
+            <span class="text-sm font-mono text-slate-400 bg-white px-3 py-1 rounded-full border border-slate-100">
+                {{ fnd.period }}
+            </span>
+        </div>
+        
+        <p class="text-slate-600 leading-relaxed mb-6 italic">
+            {{ fnd.description }}
+        </p>
+
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {% for highlight in fnd.highlights %}
+            <li class="flex items-start gap-3 text-sm text-slate-500">
+                <span class="text-blue-500 mt-1">▹</span>
+                {{ highlight }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+<section class="mb-16">
+    <h2 class="text-sm font-bold uppercase tracking-[0.25em] text-slate-400 mb-10 border-b pb-2">
+        {{ cv.executive_experience.title[lang] }}
+    </h2>
+    <div class="mb-12">
+        <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-2xl font-bold text-slate-800">{{ cv.executive_experience.role[lang] }}</h3>
+            <span class="text-sm font-mono text-slate-400">{{ cv.executive_experience.period[lang] }}</span>
+        </div>
+        <div class="text-blue-700 font-bold mb-4 uppercase tracking-wider text-sm">{{ cv.executive_experience.company }}</div>
+        <p class="mb-4 text-slate-700 leading-relaxed">
+            <span class="bg-blue-50 text-blue-700 px-2 py-1 rounded text-sm font-bold mr-2">{{ cv.executive_experience.impact_title[lang] }}</span>
+            {{ cv.executive_experience.impact[lang] }}
+        </p>
+        <p class="text-slate-600 italic">{{ cv.executive_experience.details[lang] }}</p>
+    </div>
+</section>
+
+<section class="mb-16">
+    <h2 class="text-sm font-bold uppercase tracking-[0.25em] text-slate-400 mb-8 border-b pb-2">
+        {{ cv.leadership_community.title[lang] }}
+    </h2>
+    <div class="space-y-8">
+        {% for item in cv.leadership_community[lang] %}
+        <div class="relative pl-6 border-l-2 border-slate-100">
+            <div class="flex justify-between items-baseline mb-1">
+                <h3 class="text-lg font-bold text-slate-800">{{ item.role }}</h3>
+                <span class="text-[10px] font-mono text-slate-400 uppercase">{{ item.period }}</span>
+            </div>
+            <div class="text-blue-600 text-xs font-bold uppercase tracking-wider mb-2">{{ item.organization }}</div>
+            <p class="text-sm text-slate-600 leading-relaxed italic">
+                {{ item.description }}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="mb-16">
+    <h2 class="text-sm font-bold uppercase tracking-[0.25em] text-slate-400 mb-6 border-b pb-2">
+        {{ cv.technical_innovation[lang].title }}
+    </h2>
+    <p class="text-slate-500 text-sm mb-8 italic">{{ cv.technical_innovation[lang].description }}</p>
+
+    <div class="space-y-10">
+        {% for project in cv.technical_innovation[lang].projects %}
+        <div class="relative pl-8 border-l border-slate-200">
+            <div class="absolute -left-[5px] top-2 w-2 h-2 rounded-full bg-blue-500"></div>
+            <div class="flex justify-between items-baseline mb-2">
+                <h4 class="text-xl font-bold text-slate-800">{{ project.title }}</h4>
+                <span class="text-xs font-mono text-slate-400 uppercase">{{ project.period }}</span>
+            </div>
+            <p class="text-slate-700 mb-3 font-medium">
+                <span class="text-blue-600">▹</span> {{ project.impact }}
+            </p>
+            <p class="text-slate-500 text-sm leading-relaxed">
+                {{ project.details }}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 pt-8 border-t border-slate-100">
+    <section>
+        <h2 class="text-sm font-bold uppercase tracking-widest text-slate-400 mb-4">
+            {{ cv.education[lang].title }}
+        </h2>
+        <p class="text-lg font-bold text-slate-800">{{ cv.education[lang].degree }}</p>
+        <p class="text-slate-500 uppercase text-xs tracking-widest">{{ cv.education[lang].institution }}</p>
+    </section>
+    
+    <section>
+        <h2 class="text-sm font-bold uppercase tracking-widest text-slate-400 mb-4">
+            {{ cv.core_expertise.title[lang] }}
+        </h2>
+        <div class="flex flex-wrap gap-2">
+            {% for skill in cv.core_expertise[lang] %}
+            <span class="bg-blue-50 text-blue-700 px-3 py-1 text-xs font-semibold rounded-full border border-blue-100 shadow-sm">
+                {{ skill }}
+            </span>
+            {% endfor %}
+        </div>
+    </section>
+</div>

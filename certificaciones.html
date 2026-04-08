@@ -1,0 +1,21 @@
+---
+layout: default
+lang: es
+permalink: /certificaciones/
+---
+
+<header class="mb-16">
+    <h2 class="text-sm font-bold uppercase tracking-[0.25em] text-slate-400 mb-10 border-b pb-2">
+        Certificaciones Profesionales
+    </h2>
+</header>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    {% for cert in site.data.cv.certifications %}
+    <div class="border-l-2 border-blue-600 pl-6 py-2">
+        <h3 class="text-xl font-bold text-slate-800">{{ cert.title.es }}</h3>
+        <p class="text-blue-800 font-medium">{{ cert.issuer }}</p>
+        <p class="text-sm font-mono text-slate-400">{{ cert.year }}</p>
+    </div>
+    {% endfor %}
+</div>

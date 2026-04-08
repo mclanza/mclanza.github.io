@@ -1,0 +1,11 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    # Install webrick before the serve command
+    command: >
+      sh -c "gem install webrick && 
+             jekyll serve --watch --force_polling --trace"
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
