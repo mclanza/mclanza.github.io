@@ -32,9 +32,9 @@ contact:
 # Profile with Focus on Direction and Strategy
 profile:
   es: "Líder de ingeniería con un enfoque centrado en el desarrollo de personas y una sólida base en sistemas complejos. Mi trayectoria se define por la capacidad de transformar equipos técnicos en unidades de alto rendimiento, habiendo escalado y liderado grupos de excelencia en entornos de investigación de vanguardia como IBM.
-      Aporto una combinación de criterio técnico fundamental y liderazgo empático. Me especializo en cultivar culturas de trabajo saludables, mentorizar perfiles senior y asegurar que la ejecución tecnológica esté alineada con los objetivos estratégicos, aportando la madurez necesaria para guiar proyectos ambiciosos a través del crecimiento humano y profesional del equipo."
+      Aporto una combinación de criterio técnico fundamental y liderazgo empático. Me especializo en cultivar culturas de trabajo saludables, liderar a otros gerentes de personas y asegurar que la ejecución tecnológica esté alineada con los objetivos estratégicos, aportando la madurez necesaria para guiar proyectos ambiciosos a través del crecimiento humano y profesional del equipo."
   en: "Engineering leader with a focus on people development and a strong foundation in complex systems. My trajectory is defined by the ability to transform technical teams into high-performance units, having scaled and led groups of excellence in cutting-edge research environments like IBM.
-      I bring a combination of fundamental technical judgment and empathetic leadership. I specialize in cultivating healthy work cultures, mentoring senior profiles, and ensuring that technological execution is aligned with strategic objectives, providing the maturity needed to guide ambitious projects through the human and professional growth of the team."
+      I bring a combination of fundamental technical judgment and empathetic leadership. I specialize in cultivating healthy work cultures, leading other people managers, and ensuring that technological execution is aligned with strategic objectives, providing the maturity needed to guide ambitious projects through the human and professional growth of the team."
 
 # Experience - Prioritizing Management Impact
 executive_experience:
@@ -42,8 +42,8 @@ executive_experience:
     es: "Trayectoria Ejecutiva"
     en: "Executive Trajectory"
   role:
-    es: "Business Unit Leader - Research"
-    en: "Business Unit Leader - Research"
+    es: "Senior Engineering Manager (Business Unit Leader)"
+    en: "Senior Engineering Manager (Business Unit Leader)"
   company: "IBM Argentina"
   period: 
     es: "Mayo 2016 — Diciembre 2025"
@@ -52,8 +52,8 @@ executive_experience:
     es: "Impacto:"
     en: "Impact:"
   impact:
-    es: "Liderazgo y escalamiento de una unidad de investigación multidisciplinaria, integrando a más de 20 profesionales, incluyendo Ingenieros de Software y PhDs en Ciencias de la Computación, en colaboración directa con laboratorios globales de IBM Research."
-    en: "Leadership and scaling of a multidisciplinary research unit, integrating over 20 professionals, including Software Engineers and PhDs in Computer Science, in direct collaboration with global IBM Research labs."
+    es: "Liderazgo integral de la unidad de investigación, escalando el equipo de 10 a 24 profesionales de alta especialización. Como Senior Manager, lideré una estructura jerárquica que incluyó la formación y supervisión de 3 People Managers (2 Software Engineers y 1 PhD), asegurando la escalabilidad operativa y el desarrollo de liderazgo interno."
+    en: "Full leadership of the research unit, scaling the team from 10 to 24 highly specialized professionals. As a Senior Manager, I led a hierarchical structure that included mentoring and supervising 3 People Managers (2 Software Engineers and 1 PhD), ensuring operational scalability and internal leadership development."
   details:
     es: "Gestión de talento, finanzas y contratos, asegurando un entorno de alto rendimiento y excelencia técnica para equipos distribuidos (full remote)."
     en: "Talent management, finance, and contracts, ensuring a high-performance environment and technical excellence for distributed teams (full remote)."
@@ -174,6 +174,8 @@ core_expertise:
     - "Adopción Estratégica de Tecnología"
     - "Desarrollo de Talento y Coaching"
     - "SDLC y Fundamentos de Ingeniería"
+    - "Diseño Organizacional y Escalamiento"
+    - "Planeamiento Estratégico"
   en:
     - "Engineering Management & Mentorship"
     - "High-Performance Team Building"
@@ -181,3 +183,5 @@ core_expertise:
     - "Strategic Technology Adoption"
     - "Talent Development & Coaching"
     - "SDLC & Engineering Foundations"
+    - "Organizational Design & Scaling"
+    - "Strategic Planning & Resource Management"
