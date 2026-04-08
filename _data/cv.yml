@@ -98,11 +98,11 @@ education:
   es:
     title: "Formación Académica"
     degree: "Ingeniería de Sistemas"
-    institution: "UNICEN — Tandil, Argentina"
+    institution: "Universidad Nacional del Centro de la Provincia de Buenos Aires — Tandil, Argentina"
   en:
     title: "Education"
-    degree: "Computer Engineering"
-    institution: "UNICEN — Tandil, Argentina"
+    degree: "Ingeniería de Sistemas (Systems Engineering)"
+    institution: "Universidad Nacional del Centro de la Provincia de Buenos Aires — Tandil, Argentina"
 
 # Foundations & Technical Trajectory (2003 — 2016)
 foundations:
@@ -187,3 +187,95 @@ core_expertise:
     - "SDLC & Engineering Foundations"
     - "Organizational Design & Scaling"
     - "Strategic Planning & Resource Management"
+
+
+research:
+  patents:
+    - title: "Managing work items of a multi-stage workflow"
+      number: "US 12,481,935 B2"
+      date:
+        es: "Junio 2024"
+        en: "June 2024"
+      issuer: "USPTO"
+      link: "https://patents.google.com/patent/US12481935B2/en"
+    - title: "Dynamic generation of computer-executable process steps for processing a data object"
+      number: "US 11,621,858 B2"
+      date:
+        es: "Abril 2023"
+        en: "April 2023"
+      issuer: "USPTO"
+      link: "https://patents.google.com/patent/US11621858B2/en"
+    - title: "Cognitive Feedback for Presentation"
+      number: "IPCOM000244179D"
+      date:
+        es: "Noviembre 2015"
+        en: "November 2015"
+      issuer: "IP.com"
+      link: "https://priorart.ip.com/IPCOM/000244179"
+    - title: "A method, system and components for modifying or upgrading security protections for digital data"
+      number: "IPCOM000226903D"
+      date:
+        es: "Abril 2013"
+        en: "April 2013"
+      issuer: "IP.com"
+      link: "https://priorart.ip.com/IPCOM/000226903"
+    - title: "Providing consistent cryptographic operations"
+      number: "US 9,009,472 B2"
+      date:
+        es: "Octubre 2011"
+        en: "October 2011"
+      issuer: "USPTO"
+      link: "https://patents.google.com/patent/US9009472B2/en"
+    - title: "Providing Consistent Cryptographic Operations Across Several Applications"
+      number: "US 9,009,473 B2"
+      date:
+        es: "Octubre 2011"
+        en: "October 2011"
+      issuer: "USPTO"
+      link: "https://patents.google.com/patent/US9009473B2/en"
+
+
+  publications:
+    - title: "Qux360: A Validation Framework for Improving Reliability and Transparency of AI-Supported Qualitative Analysis"
+      venue: "ResearchGate / arXiv"
+      date:
+        es: "Febrero 2026"
+        en: "February 2026"
+      link: "https://www.researchgate.net/publication/403012687_Qux360_A_Validation_Framework_for_Improving_Reliability_and_Transparency_of_AI-Supported_Qualitative_Analysis"
+      description:
+        es: "Desarrollo de un framework de validación integral (Qux360) para mitigar sesgos y mejorar la transparencia en el uso de modelos de lenguaje para el análisis de datos cualitativos."
+        en: "Development of a comprehensive validation framework (Qux360) designed to mitigate bias and enhance transparency when using LLMs for qualitative data analysis."
+    
+    - title: "The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities"
+      venue: "ACM / arXiv / ResearchGate"
+      date:
+        es: "Diciembre 2025"
+        en: "December 2025"
+      link: "https://www.researchgate.net/publication/398850629_The_Emerging_Use_of_GenAI_for_UX_Research_in_Software_Development_Challenges_and_Opportunities"
+      description:
+        es: "Estudio sobre cómo la IA generativa está transformando la investigación cualitativa de experiencia de usuario en entornos de desarrollo ágil."
+        en: "A study on how Generative AI is reshaping qualitative UX research within agile software development workflows."
+
+    - title:
+        es: "Minerva: Una Herramienta para un Curso de Lenguajes Formales y Autómatas"
+        en: "Minerva: A Tool for a Formal Languages and Automata Course"
+      venue: "CLEI (Conferencia Latinoamericana de Informática)"
+      date:
+        es: "Noviembre 2002"
+        en: "November 2002"
+      link: "https://www.researchgate.net/publication/266384889_Minerva_Una_Herramienta_para_un_Curso_de_Lenguajes_Formales_y_Automatas"
+      description:
+        es: "La publicación describe la herramienta de software Minerva -mi tesis de grado- para enseñanza en un curso introductorio de Ciencias de la Computación."
+        en: "The publication describes the Minerva software tool -my undergraduate thesis- for teaching in an introductory Computer Science course."
+
+  labels:
+    es:
+      title: "Investigación e Innovación"
+      p_subtitle: "Patentes"
+      pub_subtitle: "Publicaciones Académicas"
+      view_link: "Ver publicación"
+    en:
+      title: "Research & Innovation"
+      p_subtitle: "Patents"
+      pub_subtitle: "Academic Publications"
+      view_link: "View publication"
