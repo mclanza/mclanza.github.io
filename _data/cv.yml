@@ -104,24 +104,26 @@ education:
     degree: "Computer Engineering"
     institution: "UNICEN — Tandil, Argentina"
 
-# Foundations & Technical Trajectory
+# Foundations & Technical Trajectory (2003 — 2016)
 foundations:
   es:
     title: "Trayectoria y Fundamentos en Ingeniería"
     period: "2003 — 2016"
-    description: "Más de una década de experiencia técnica sólida antes de la transición al liderazgo estratégico. Evolucioné a través de diversos roles de Ingeniería de Software y Desarrollo Senior, trabajando con múltiples stacks tecnológicos y arquitecturas de sistemas."
+    description: "Más de una década de experiencia técnica sólida antes de la transición al liderazgo estratégico. Evolucioné a través de diversos roles de Ingeniería de Software y Desarrollo Senior, trabajando con múltiples stacks tecnológicos y arquitecturas de sistemas en empresas como Movistar, Telpin y SIU."
     highlights:
-      - "Desarrollo de sistemas críticos y aplicaciones empresariales de gran escala."
+      - "Desarrollo de sistemas críticos, aplicaciones de facturación (TELCO) y plataformas universitarias de gran escala (SIU)."
+      - "Liderazgo técnico en la creación de constructores de aplicaciones y sistemas de autogestión (Movistar)."
       - "Dominio de paradigmas de programación y principios de diseño que trascienden las tecnologías de moda."
-      - "Experiencia en el ciclo de vida completo del software (SDLC) en entornos corporativos dinámicos."
+      - "Experiencia en el ciclo de vida completo del software (SDLC) en entornos corporativos y académicos."
   en:
     title: "Engineering Foundations & Trajectory"
     period: "2003 — 2016"
-    description: "Over a decade of solid technical experience prior to transitioning into strategic leadership. Evolved through various Software Engineering and Senior Developer roles, working across multiple technology stacks and system architectures."
+    description: "Over a decade of solid technical experience prior to transitioning into strategic leadership. Evolved through various Software Engineering and Senior Developer roles, working across multiple technology stacks and system architectures in companies such as Movistar, Telpin, and SIU."
     highlights:
-      - "Development of critical systems and large-scale enterprise applications."
+      - "Development of critical systems, billing applications (TELCO), and large-scale university platforms (SIU)."
+      - "Technical leadership in application builders and self-management systems (Movistar)."
       - "Mastery of programming paradigms and design principles that transcend trending technologies."
-      - "Full Software Development Life Cycle (SDLC) experience in dynamic corporate environments."
+      - "Full Software Development Life Cycle (SDLC) experience in corporate and academic environments."
 
 # Technical Community Leadership
 leadership_community:
