@@ -28,6 +28,10 @@ contact:
   email: "mariela.lanza@gmail.com"
   linkedin: "linkedin.com/in/marielalanza"
   github: "github.com/mclanza"
+  source_code: "github.com/mclanza/mclanza.github.io"
+  source_code_title:
+    es: "Código Fuente"
+    en: "Source Code"
 
 # Profile with Focus on Direction and Strategy
 profile:

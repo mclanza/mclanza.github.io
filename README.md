@@ -49,7 +49,8 @@ This project was designed and developed in **strategic collaboration with Gemini
 ├── _data/
 │   └── cv.yml                # Source of Truth / Fuente de verdad
 ├── _includes/
-│   └── cv_content.html       # Shared UI Logic / Lógica UI compartida
+│   ├── cv_content.html       # Shared UI Logic / Lógica UI compartida
+│   └── research_content.html # Research page content / Contenido de página de investigación
 ├── _layouts/
 │   └── default.html          # Base layout & Tailwind config
 ├── assets/
