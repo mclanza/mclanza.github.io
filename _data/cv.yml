@@ -42,7 +42,7 @@ executive_experience:
     es: "Trayectoria Ejecutiva"
     en: "Executive Trajectory"
   role:
-    es: "Senior Engineering Manager (Business Unit Leader)"
+    es: "Senior Engineering Manager (Líder de Unidad de Negocios)"
     en: "Senior Engineering Manager (Business Unit Leader)"
   company: "IBM Argentina"
   period: 
@@ -131,10 +131,10 @@ leadership_community:
     es: "Liderazgo en Comunidades Técnicas"
     en: "Technical Community Leadership"
   es:
-    - role: "Technical Oversight Committee Leader"
+    - role: "Líder del Technical Oversight Committee"
       organization: "IBM Open Innovation Community (OIC)"
       period: "2025"
-      description: "OIC Technical Growth & Development Co-Leader, liderando la definición de la estrategia de crecimiento y desarrollo para la comunidad técnica global de IBM."
+      description: "Colíder de OIC Technical Growth & Development, liderando la definición de la estrategia de crecimiento y desarrollo para la comunidad técnica global de IBM."
     - role: "Equipo de Transformación"
       organization: "IBM Open Innovation Community (OIC)"
       period: "2024"
@@ -143,7 +143,7 @@ leadership_community:
       organization: "IBM Technical Council Argentina (TCA)"
       period: "2016 — 2025"
       description: "Miembro del comité central de dirección, definiendo la estrategia para la comunidad técnica a nivel local."
-    - role: "Founder & Leader"
+    - role: "Fundadora y Líder"
       organization: "TCA-Women Argentina"
       period: "2014 — 2016"
       description: "Fundación y liderazgo de la subcomunidad enfocada en potenciar el desarrollo y visibilidad de mujeres en roles técnicos."
