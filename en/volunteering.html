@@ -1,22 +1,6 @@
 ---
 layout: default
+title: Volunteering
 lang: en
-permalink: /en/volunteering/
 ---
-
-<header class="mb-16">
-    <h2 class="text-sm font-bold uppercase tracking-[0.25em] text-slate-400 mb-10 border-b pb-2">
-        Community Impact
-    </h2>
-</header>
-
-<div class="space-y-12">
-    {% for act in site.data.cv.volunteering %}
-    <div class="group">
-        <h3 class="text-2xl font-bold text-slate-800 group-hover:text-blue-600 transition">{{ act.title.es }}</h3>
-        <p class="mt-4 text-lg text-slate-600 leading-relaxed italic">
-            {{ act.description.en }}
-        </p>
-    </div>
-    {% endfor %}
-</div>
+{% include volunteering_content.html%}

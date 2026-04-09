@@ -1,0 +1,53 @@
+{% assign lang = page.lang %}
+{% assign vol = site.data.cv.volunteering %}
+{% assign labels = vol.labels[lang] %}
+
+<div class="max-w-5xl mx-auto py-8 px-6">
+  <header class="mb-16">
+    <h1 class="text-3xl font-bold text-gray-800 tracking-tight">
+      {{ vol.title[lang] }}
+    </h1>
+  </header>
+
+  <section class="mb-24">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {% for item in vol[lang] %}
+        <div class="group p-6 border border-gray-100 rounded-lg bg-white shadow-sm hover:shadow-md hover:border-blue-200 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
+          
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <h3 class="font-bold text-gray-800 group-hover:text-gray-600 leading-tight pr-4 transition-colors">
+                {{ item.organization }}
+              </h3>
+              <span class="text-xs font-mono text-slate-400 uppercase whitespace-nowrap">
+                {{ item.period }}
+              </span>
+            </div>
+
+            <div class="mb-4">
+              <p class="text-lg font-medium text-blue-600 leading-tight">
+                {{ item.project }}
+              </p>
+              <p class="text-xs text-gray-400 font-bold uppercase tracking-widest mt-1">
+                {{ item.role }}
+              </p>
+            </div>
+
+            <p class="text-gray-600 leading-relaxed text-sm italic font-light">
+              {{ item.description }}
+            </p>
+          </div>
+
+          {% if item.link %}
+            <a href="{{ item.link }}" target="_blank" class="inline-flex items-center mt-6 text-xs font-bold text-gray-400 hover:text-gray-600 uppercase tracking-widest transition-colors">
+              {% if lang == "en" %}View Project{% else %}Ver Proyecto{% endif %}
+              <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
