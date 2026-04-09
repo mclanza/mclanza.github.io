@@ -174,23 +174,23 @@ core_expertise:
     es: "Áreas de Expertise"
     en: "Core Expertise"
   es:
-    - "Diseño Organizacional y Escalamiento"
-    - "Planificación Estratégica y Gestión de Recursos"
-    - "Adopción Estratégica de Tecnología"
-    - "Construcción de Equipos de Alto Rendimiento"
+    - "Gestión de Ingeniería y Mentoría"
+    - "Formación de Equipos de Alto Rendimiento"
     - "Cultura de Ingeniería y Mejores Prácticas"
+    - "Adopción Estratégica de Tecnología"
     - "Desarrollo de Talento y Coaching"
-    - "Gestión de Ingeniería y Mentoreo"
     - "SDLC y Fundamentos de Ingeniería"
+    - "Diseño Organizacional y Escalamiento"
+    - "Planeamiento Estratégico"
   en:
-    - "Organizational Design & Scaling"
-    - "Strategic Planning & Resource Management"
-    - "Strategic Technology Adoption"
+    - "Engineering Management & Mentorship"
     - "High-Performance Team Building"
     - "Engineering Culture & Best Practices"
+    - "Strategic Technology Adoption"
     - "Talent Development & Coaching"
-    - "Engineering Management & Mentorship"
     - "SDLC & Engineering Foundations"
+    - "Organizational Design & Scaling"
+    - "Strategic Planning & Resource Management"
 
 
 research:
