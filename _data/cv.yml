@@ -46,8 +46,8 @@ executive_experience:
     es: "Trayectoria Ejecutiva"
     en: "Executive Trajectory"
   role:
-    es: "Senior Engineering Manager (Líder de Unidad de Negocios)"
-    en: "Senior Engineering Manager (Business Unit Leader)"
+    es: "Senior Engineering Manager & Site Lead (IBM Research Argentina)"
+    en: "Senior Engineering Manager & Site Lead (IBM Research Argentina)"
   company: "IBM Argentina"
   period: 
     es: "Mayo 2016 — Diciembre 2025"
@@ -56,11 +56,11 @@ executive_experience:
     es: "Impacto:"
     en: "Impact:"
   impact:
-    es: "Liderazgo integral de la unidad de investigación, escalando el equipo de 10 a 24 profesionales de alta especialización. Como Senior Manager, lideré una estructura jerárquica que incluyó la formación y supervisión de 3 People Managers (2 Software Engineers y 1 PhD), asegurando la escalabilidad operativa y el desarrollo de liderazgo interno."
-    en: "Full leadership of the research unit, scaling the team from 10 to 24 highly specialized professionals. As a Senior Manager, I led a hierarchical structure that included mentoring and supervising 3 People Managers (2 Software Engineers and 1 PhD), ensuring operational scalability and internal leadership development."
+    es: "Dirección estratégica y escalamiento del equipo hasta lograr el reconocimiento oficial como el Laboratorio de Investigación de IBM en Argentina. Bajo mi liderazgo, la unidad creció un 140% (de 10 a 24 especialistas), consolidándose como una potencia de Research regional en partnership con Brasil. Como Senior Manager, desarrollé un pipeline de talento que resultó en la promoción de 3 ingenieros (incluyendo perfiles PhD) a roles de Management. Gestioné íntegramente finanzas, contratos y operaciones estratégicas, asegurando un entorno de alto rendimiento para equipos distribuidos (full remote) alineado con los objetivos de innovación global."
+    en: "Strategic direction and scaling of the team until achieving official recognition as IBM's Research Lab in Argentina. Under my leadership, the unit grew by 140% (from 10 to 24 specialists), establishing itself as a regional Research powerhouse in partnership with Brazil. As Senior Manager, I developed a talent pipeline that resulted in the promotion of 3 engineers (including PhD profiles) to Management roles. I fully managed finance, contracts, and strategic operations, ensuring a high-performance environment for distributed teams (full remote) aligned with global innovation objectives."
   details:
-    es: "Gestión de talento, finanzas y contratos, asegurando un entorno de alto rendimiento y excelencia técnica para equipos distribuidos (full remote)."
-    en: "Talent management, finance, and contracts, ensuring a high-performance environment and technical excellence for distributed teams (full remote)."
+    es: "Foco en la construcción de culturas de alto rendimiento, mentoreo de líderes y optimización de procesos operativos para ingeniería de escala global."
+    en: "Focus on building high-performance cultures, mentoring leaders, and optimizing operational processes for global-scale engineering."
 
 # Technical Innovation & Hands-on Contributions
 technical_innovation:
@@ -174,23 +174,23 @@ core_expertise:
     es: "Áreas de Expertise"
     en: "Core Expertise"
   es:
-    - "Gestión de Ingeniería y Mentoría"
-    - "Formación de Equipos de Alto Rendimiento"
-    - "Cultura de Ingeniería y Mejores Prácticas"
-    - "Adopción Estratégica de Tecnología"
-    - "Desarrollo de Talento y Coaching"
-    - "SDLC y Fundamentos de Ingeniería"
     - "Diseño Organizacional y Escalamiento"
-    - "Planeamiento Estratégico"
+    - "Planificación Estratégica y Gestión de Recursos"
+    - "Adopción Estratégica de Tecnología"
+    - "Construcción de Equipos de Alto Rendimiento"
+    - "Cultura de Ingeniería y Mejores Prácticas"
+    - "Desarrollo de Talento y Coaching"
+    - "Gestión de Ingeniería y Mentoreo"
+    - "SDLC y Fundamentos de Ingeniería"
   en:
-    - "Engineering Management & Mentorship"
-    - "High-Performance Team Building"
-    - "Engineering Culture & Best Practices"
-    - "Strategic Technology Adoption"
-    - "Talent Development & Coaching"
-    - "SDLC & Engineering Foundations"
     - "Organizational Design & Scaling"
     - "Strategic Planning & Resource Management"
+    - "Strategic Technology Adoption"
+    - "High-Performance Team Building"
+    - "Engineering Culture & Best Practices"
+    - "Talent Development & Coaching"
+    - "Engineering Management & Mentorship"
+    - "SDLC & Engineering Foundations"
 
 
 research:
